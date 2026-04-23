@@ -13,6 +13,7 @@ int main() {
   float area, area2, pib, pib2;
 
   // Área para entrada de dados
+  // Carta 1
 
   printf("carta 1 - digite uma letra de A a H para representar o estado : ");
   scanf(" %c", &estado);
@@ -38,6 +39,8 @@ int main() {
   printf("---- // ----\n");
   printf("insira os dados da próxima carta\n");
   printf("---- // ----\n");
+
+  // Carta 2
 
   printf("carta 2 - digite uma letra de A a H para representar o estado : ");
   scanf(" %c", &estado2);
