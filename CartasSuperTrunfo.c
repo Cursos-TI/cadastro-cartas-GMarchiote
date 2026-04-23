@@ -14,46 +14,50 @@ int main() {
 
   // Área para entrada de dados
 
-  printf("carta 1 - digite a letra que represente o estado: ");
+  printf("carta 1 - digite uma letra de A a H para representar o estado : ");
   scanf(" %c", &estado);
 
   printf("carta 1 - digite o código da carta, ex: A01, B02... : ");
   scanf(" %s", codigo_carta);
 
-  printf("carta 1 - digite o nome da cidade: ");
+  printf("carta 1 - digite o nome da cidade : ");
   scanf(" %[^\n]", nome_cidade);
 
-  printf("carta 1 - digite o número de habitantes da cidade (não utilize ponto ou vírgulas!): ");
+  printf("carta 1 - digite o número de habitantes da cidade (não utilize ponto ou vírgulas!) : ");
   scanf(" %d", &numero_habitantes);
 
-  printf("carta 1 - digite a área em km² da cidade (não utilize vírgulas): ");
+  printf("carta 1 - digite a área em km² da cidade : ");
   scanf(" %f", &area);
 
-  printf("carta 1 - digite o pib dessa cidade (não utilize vírgulas): ");
+  printf("carta 1 - digite o pib dessa cidade : ");
   scanf(" %f", &pib);
 
-  printf("carta 1 - digite a quantidade de pontos turísticos dessa cidade: ");
+  printf("carta 1 - digite a quantidade de pontos turísticos dessa cidade : ");
   scanf(" %d", &pontos_turisticos);
 
-  printf("carta 2 - digite a letra que represente o estado: ");
+  printf("---- // ----\n");
+  printf("insira os dados da próxima carta\n");
+  printf("---- // ----\n");
+
+  printf("carta 2 - digite uma letra de A a H para representar o estado : ");
   scanf(" %c", &estado2);
 
   printf("carta 1 - digite o código da carta, ex: A01, B02... : ");
   scanf(" %s", codigo_carta2);
 
-  printf("carta 2 - digite o nome da cidade: ");
+  printf("carta 2 - digite o nome da cidade : ");
   scanf(" %[^\n]", nome_cidade2);
 
-  printf("carta 2 - digite o número de habitantes da cidade (não utilize ponto ou vírgulas!): ");
+  printf("carta 2 - digite o número de habitantes da cidade (não utilize ponto ou vírgulas!) : ");
   scanf(" %d", &numero_habitantes2);
 
-  printf("carta 2 - digite a área em km² da cidade (não utilize vírgulas): ");
+  printf("carta 2 - digite a área em km² da cidade : ");
   scanf(" %f", &area2);
 
-  printf("carta 2 - digite o pib dessa cidade (não utilize vírgulas): ");
+  printf("carta 2 - digite o pib dessa cidade : ");
   scanf(" %f", &pib2);
 
-  printf("carta 2 - digite a quantidade de pontos turísticos dessa cidade: ");
+  printf("carta 2 - digite a quantidade de pontos turísticos dessa cidade : ");
   scanf(" %d", &pontos_turisticos2);
 
 
@@ -68,11 +72,16 @@ int main() {
   printf("pib de %s: %f\n", nome_cidade, pib);
   printf("quantidade de pontos turísticos de %s : %d\n", nome_cidade, pontos_turisticos);
 
-  printf("carta 2 :");
+  printf("---- // ----\n");
+  printf("carta 2\n");
+  printf("---- // ----\n");
+
+
+  printf("carta 2 :\n");
   printf("estado : %c\n", estado2);
   printf("código da carta : %s\n", codigo_carta2);
   printf("nome da cidade : %s\n", nome_cidade2);
-  printf("número de habitantes de %s : %d\n", nome_cidade, numero_habitantes2);
+  printf("número de habitantes de %s : %d\n", nome_cidade2, numero_habitantes2);
   printf("área de %s : %f\n", nome_cidade2, area2);
   printf("pib de %s: %f\n", nome_cidade2, pib2);
   printf("quantidade de pontos turísticos de %s : %d\n", nome_cidade2, pontos_turisticos2);
